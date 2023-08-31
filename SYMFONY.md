@@ -34,16 +34,18 @@
     symfony console d:m:m
 
 
-**RELATION ENTITY**
-    symfony console make:entity nomClass
-
-
 **CONNEXION**
     symfony console make:user
     symfony console make:auth
     symfony console make:registration-form
 
 
+**RELATION ENTITY**
+    symfony console make:entity nomClass
+
+
 **CREATION CONTROLLER**
     symfony console make:controller
-    
+
+**AJOUTER UN FILTRE**
+    symfony console make:form
